@@ -127,9 +127,10 @@
 	<dependency>
 	    <groupId>io.undertow</groupId>
 	    <artifactId>undertow-parent</artifactId>
-	    <version>1.4.2.Final</version>
+	    <version>1.4.11.Final-redhat-1</version>
 	    <type>pom</type>
 	</dependency>
+
 
 		   
   </dependencies>
