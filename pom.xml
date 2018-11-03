@@ -105,14 +105,6 @@
 	    <artifactId>jaxws-api</artifactId>
 	    <version>2.3.0</version>
 	</dependency>	
-	
-	<!--7 CVE-2012-5812 https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-5812 -->
-	<!-- https://mvnrepository.com/artifact/ch.acra/acra -->
-	<dependency>
-		<groupId>ch.acra</groupId>
-		<artifactId>acra</artifactId>
-		<version>4.8.0</version>
-	</dependency>
 		   
   </dependencies>
 </project>
