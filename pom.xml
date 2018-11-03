@@ -122,16 +122,35 @@
 	    <version>2.4.5.RELEASE</version>
 	</dependency>	
 	
-    <!--39 CVE-2017-2666 https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-2666 -->	
-<!-- https://mvnrepository.com/artifact/io.undertow/undertow-parent -->
-<dependency>
-    <groupId>io.undertow</groupId>
-    <artifactId>undertow-parent</artifactId>
-    <version>2.0.13.Final-redhat-00001</version>
-    <type>pom</type>
-</dependency>
+	<!--38 CVE-2017-17485 https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-17485 -->
+	<!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-databind -->
+	<dependency>
+	    <groupId>com.fasterxml.jackson.core</groupId>
+	    <artifactId>jackson-databind</artifactId>
+	    <version>2.8.10</version>
+	</dependency>
 
+	<!--35 CVE-2018-1259 https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-1259 -->
+	<!-- https://mvnrepository.com/artifact/org.springframework.data/spring-data-commons -->
+	<dependency>
+	    <groupId>org.springframework.data</groupId>
+	    <artifactId>spring-data-commons</artifactId>
+	    <version>1.13.8.RELEASE</version>
+	</dependency>
+	<!-- https://mvnrepository.com/artifact/org.xmlbeam/xmlprojector -->
+	<dependency>
+	    <groupId>org.xmlbeam</groupId>
+	    <artifactId>xmlprojector</artifactId>
+	    <version>1.4.14</version>
+	</dependency>
 
+	<!--36 CVE-2018-13864 https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-13864 -->
+	<!-- https://mvnrepository.com/artifact/com.typesafe.play/play -->
+	<dependency>
+	    <groupId>com.typesafe.play</groupId>
+	    <artifactId>play_2.12</artifactId>
+	    <version>2.6.14</version>
+	</dependency>
 
 
 		   
