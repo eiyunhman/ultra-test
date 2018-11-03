@@ -123,18 +123,14 @@
 	</dependency>	
 	
     <!--39 CVE-2017-2666 https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-2666 -->	
-	<!-- https://mvnrepository.com/artifact/io.undertow/undertow-servlet -->
+	<!-- https://mvnrepository.com/artifact/io.undertow/undertow-parent -->
 	<dependency>
 	    <groupId>io.undertow</groupId>
-	    <artifactId>undertow-servlet</artifactId>
-	    <version>1.4.21.Final</version>
+	    <artifactId>undertow-parent</artifactId>
+	    <version>1.4.2.Final</version>
+	    <type>pom</type>
 	</dependency>
-	<!-- https://mvnrepository.com/artifact/io.undertow/undertow-core -->
-	<dependency>
-	    <groupId>io.undertow</groupId>
-	    <artifactId>undertow-core</artifactId>
-	    <version>1.4.21.Final</version>
-	</dependency>
+
 		   
   </dependencies>
 </project>
