@@ -23,6 +23,7 @@
   </properties>
 	
   <dependencies>
+  <!--
     <dependency>
       <groupId>com.google.code.findbugs</groupId>
       <artifactId>jsr305</artifactId>
@@ -88,7 +89,8 @@
       <artifactId>commons-fileupload</artifactId>
       <version>1.2.1</version>
     </dependency>
-   
+    -->
+    
 	<!--37 CVE-2017-12624 https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-12624 -->		
 	<!-- https://mvnrepository.com/artifact/org.apache.cxf/cxf -->	 
 	<dependency>
@@ -102,6 +104,15 @@
 	    <groupId>javax.xml.ws</groupId>
 	    <artifactId>jaxws-api</artifactId>
 	    <version>2.3.0</version>
-	</dependency>		   
+	</dependency>	
+	
+	<!--7 CVE-2012-5812 https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-5812 -->
+	<!-- https://mvnrepository.com/artifact/ch.acra/acra -->
+	<dependency>
+		<groupId>ch.acra</groupId>
+		<artifactId>acra</artifactId>
+		<version>4.8.0</version>
+	</dependency>
+		   
   </dependencies>
 </project>
