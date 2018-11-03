@@ -108,14 +108,13 @@
 	    <version>3.6.0.RELEASE</version>
 	</dependency>
 
-	<!--34 CVE-2018-1000176 https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-1000176 -->
-	<!--  how to add https://plugins.jenkins.io/email-ext ?-->
-	<!-- https://mvnrepository.com/artifact/org.jenkins-ci.main/jenkins-war -->
+	<!--25 CVE-2011-1511 https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-1511 -->
+	<!-- https://cxsecurity.com/issue/WLB-2011050049 -->
+	<!-- https://mvnrepository.com/artifact/org.glassfish.main.admin/admin-cli -->
 	<dependency>
-	    <groupId>org.jenkins-ci.main</groupId>
-	    <artifactId>jenkins-war</artifactId>
-	    <version>2.73</version>
-	    <scope>test</scope>
+		<groupId>org.glassfish.main.admin</groupId>
+		<artifactId>admin-cli</artifactId>
+		<version>5.0</version>
 	</dependency>
 	
 	<!--28 CVE-2014-8110 https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-8110 -->		
