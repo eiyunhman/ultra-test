@@ -121,6 +121,20 @@
 	    <artifactId>spring-webflow</artifactId>
 	    <version>2.4.5.RELEASE</version>
 	</dependency>	
+	
+    <!--39 CVE-2017-2666 https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-2666 -->	
+	<!-- https://mvnrepository.com/artifact/io.undertow/undertow-servlet -->
+	<dependency>
+	    <groupId>io.undertow</groupId>
+	    <artifactId>undertow-servlet</artifactId>
+	    <version>1.4.21.Final</version>
+	</dependency>
+	<!-- https://mvnrepository.com/artifact/io.undertow/undertow-core -->
+	<dependency>
+	    <groupId>io.undertow</groupId>
+	    <artifactId>undertow-core</artifactId>
+	    <version>1.4.21.Final</version>
+	</dependency>
 		   
   </dependencies>
 </project>
