@@ -51,27 +51,6 @@
 		      </executions>
 		   </plugin>
 		   
-		   <!-- plugin management -->
-		   <pluginMangement>
-		     <plugins>
-		       <plugin>
-		         <groupId>org.sonatype.ossindex.maven</groupId>
-		         <artifactId>ossindex-maven-plugin</artifactId>
-		         <version>3.0.1</version>
-		       </plugin>
-		     </plugins>
-		   </pluginMangement>
-		
-		   <!-- plugin execution -->
-		   <plugins>
-		     <plugin>
-		       <groupId>org.sonatype.ossindex.maven</groupId>
-		       <artifactId>ossindex-maven-plugin</artifactId>
-		       <version>3.0.1</version>
-		     </plugin>
-		   </plugins>
-		 </build>
-		   
         </plugins>
     </build>
 	
