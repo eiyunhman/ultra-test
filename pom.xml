@@ -135,11 +135,12 @@
 		  <version>3.3.4</version>
 		  <type>maven-plugin</type>
 		</dependency>
+		<!-- 
 		<dependency>
 		    <groupId>org.apache.juddi.bootstrap</groupId>
 		    <artifactId>apache-tomcat</artifactId>
 		    <version>6.0.20</version>
-		</dependency>
+		</dependency> -->
 		<dependency>
 		   <groupId>org.sonatype.ossindex.maven</groupId>
           <artifactId>ossindex-maven-plugin</artifactId>
