@@ -36,6 +36,7 @@
                   </execution>
               </executions>
             </plugin>
+            
 	        <plugin>
 		      <groupId>org.sonatype.ossindex.maven</groupId>
 		      <artifactId>ossindex-maven-plugin</artifactId>
@@ -49,6 +50,28 @@
 		        </execution>
 		      </executions>
 		   </plugin>
+		   
+		   <!-- plugin management -->
+		   <pluginMangement>
+		     <plugins>
+		       <plugin>
+		         <groupId>org.sonatype.ossindex.maven</groupId>
+		         <artifactId>ossindex-maven-plugin</artifactId>
+		         <version>3.0.1</version>
+		       </plugin>
+		     </plugins>
+		   </pluginMangement>
+		
+		   <!-- plugin execution -->
+		   <plugins>
+		     <plugin>
+		       <groupId>org.sonatype.ossindex.maven</groupId>
+		       <artifactId>ossindex-maven-plugin</artifactId>
+		       <version>3.0.1</version>
+		     </plugin>
+		   </plugins>
+		 </build>
+		   
         </plugins>
     </build>
 	
@@ -129,22 +152,23 @@
 		    <artifactId>prime-jwt</artifactId>
 		    <version>1.3.0</version>
 		</dependency>
+		<!--  
 		<dependency>
 		  <groupId>org.owasp</groupId>
 		  <artifactId>dependency-check-maven</artifactId>
 		  <version>3.3.4</version>
 		  <type>maven-plugin</type>
-		</dependency>
+		</dependency>-->
 		<!-- 
 		<dependency>
 		    <groupId>org.apache.juddi.bootstrap</groupId>
 		    <artifactId>apache-tomcat</artifactId>
 		    <version>6.0.20</version>
-		</dependency> -->
+		</dependency> 
 		<dependency>
 		   <groupId>org.sonatype.ossindex.maven</groupId>
           <artifactId>ossindex-maven-plugin</artifactId>
           <version>3.0.1</version>
-          </dependency>
+          </dependency>-->
   </dependencies>
 </project>
